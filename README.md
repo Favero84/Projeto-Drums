@@ -3,4 +3,16 @@
 
 http://projetodrums.000webhostapp.com/
 
-![Drums1]()
+![Drums](https://github.com/Favero84/Projeto-Drums/blob/master/Drums.png)
+
+![Drums](https://github.com/Favero84/Projeto-Drums/blob/master/Drums01.png)
+
+![Drums](https://github.com/Favero84/Projeto-Drums/blob/master/Drums02.png)
+
+![Drums](https://github.com/Favero84/Projeto-Drums/blob/master/Drums03.png)
+
+![Drums](https://github.com/Favero84/Projeto-Drums/blob/master/Drums04.png)
+
+### Fotos do site em aparelhos mobile:
+
+![Drums](https://github.com/Favero84/Projeto-Drums/blob/master/Drums05.png)
