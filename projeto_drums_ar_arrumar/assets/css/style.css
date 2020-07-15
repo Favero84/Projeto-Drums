@@ -1,0 +1,339 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menulogcad {
+    width: 100%;
+    max-width: 1275px;
+    margin: auto;
+    margin-bottom: -25px;
+}
+.bannertopo {
+    width: 100%;
+    max-width: 1275px;
+    margin: auto;
+    }
+.titulotopo {
+    position: absolute;
+    color: #23A3BB;
+    padding-left: 36%;
+    padding-top: 60px;
+    font-size: 42px;
+}
+.imgbanner img {
+    width: 1275px;
+}
+.menuprincipal {
+    width: 100%;
+    max-width: 1275px;
+    margin: auto;
+    height: 55px;
+    background-color: #1C818B;
+}
+.menuprincipal ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menuprincipal li {
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    height: 55px;
+    line-height: 55px;
+    padding-left: 85px;
+    padding-right: 85px;
+}
+.imgmain {
+    width: 100%;
+    max-width: 1275px;
+    margin: auto;
+}
+.imgmain img {
+    width: 100%;
+    max-width: 1275px;
+    margin: auto;
+    height: 700px;
+}
+.cardapio {
+    width: 100%;
+    max-width: 1275px;
+    height: 780px;
+    background-color: #23A3BB;
+    margin: auto;
+}
+.cardapiograde1 img,
+.cardapiograde2 img {
+    border: 3px solid #FFF;
+}
+.titulocardapio {
+    color: #333;
+    font-size: 28px;
+    padding-left: 45%;
+    padding-top: 75px;
+}
+.gradescardapio {
+    display: flex;
+    flex-direction: column;
+}
+.cardapiograde1 {
+    flex: 1;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.cardapiograde2 {
+    flex: 1;
+    margin: auto;
+}
+#cardapio2 {
+    background-color: #DDD;
+    padding-top: 130px;
+}
+.auxiliar {
+    display: none;
+}
+.contato {
+    width: 100%;
+    max-width: 1275px;
+    height: 580px;
+    background-color: #000;
+    margin: auto;
+    padding-top: 80px;
+}
+.titulocontato {
+    display: flex;
+    color: #fff;
+    font-size: 28px;
+    margin-bottom: 40px;
+    padding-left: 43%;
+}
+.form-group {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.botao {
+    padding-left: 100px;
+}
+.rodapecafe {
+    width: 100%;
+    max-width: 1275px;
+    height: 65px;
+    background-color: #333;
+    margin: auto;
+}
+.textoroda {
+    color: #00cccc;
+    font-size: 13px;
+    float: right;
+    height: 65px;
+    line-height: 65px;
+    padding-right: 70px;
+}
+@media only screen and (min-width:794px) and (max-width:1094px) {
+    
+    .menulogcad,
+    .bannertopo,
+    .menuprincipal,
+    .imgmain,
+    .cardapio,
+    .contato,
+    .rodape {
+        max-width: 890px;
+    }
+    .titulotopo {
+    padding-left: 28%;
+    padding-top: 35px;
+    }
+    .menuprincipal li {
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+    .imgmain img {
+        height: auto;
+    }
+    .imgmain {
+        height: auto;
+        padding-bottom: 120px;
+    }
+    .cardapiograde1 img,
+    .cardapiograde2 img {
+        width: 250px;
+    }
+    .cardapio {
+        margin-top: -120px;
+        height: 750px;
+    }
+    #cardapio2 {
+        padding-top: 60px;
+        height: 535px;
+    }
+    .textoroda {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width:500px) and (max-width:794px) {
+    
+    .menulogcad,
+    .bannertopo,
+    .menuprincipal,
+    .imgmain,
+    .cardapio,
+    .auxiliar,
+    .contato,
+    .rodape {
+        max-width: 768px;
+    }
+    .menulogcad ul li {
+        float: right;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .bannertopo {
+        display: none;
+    }
+    .menuprincipal li {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .imgmain {
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .imgmain img {
+        height: auto;
+    }
+    .cardapiograde1 {
+        margin-bottom: -30px;
+    }
+    .cardapiograde1 img,
+    .cardapiograde2 img {
+        margin-top: -30px;
+        border: none;
+        margin-bottom: -20px;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    #cardapio {
+        display: none;
+    }
+    #cardapio2 {
+        padding-top: 40px;
+        margin-top: -120px;
+        height: auto;
+        background-color: #DDD;
+    }
+    .auxiliar {
+    display: flex;
+    width: 100%;
+    max-width: 1275px;
+    height: auto;
+    background-color: #23A3BB;
+    margin: auto;
+}
+    .auxiliarfotos img {
+        margin-top: -30px;
+        border: none;
+        margin-bottom: -20px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .contato {
+        margin-top: -30px;
+    }
+    .textoroda {
+        font-size: 12px;
+    }
+}    
+
+@media only screen and (max-width:500px) { 
+    
+    .menulogcad,
+    .bannertopo,
+    .menuprincipal,
+    .imgmain,
+    .cardapio,
+    .auxiliar,
+    .contato,
+    .rodape {
+        max-width: 480px;
+    }
+    .menulogcad ul li {
+        float: right;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    .bannertopo {
+        display: none;
+    }
+    .titulotopo {
+        font-size: 28px;
+        padding-left: 30%;
+        padding-top: 15px;
+    }
+    .menuprincipal li {
+        font-size: 20px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .imgmain {
+        height: auto;
+        padding-bottom: 80px;
+    }
+    .imgmain img {
+        height: auto;
+    }
+    .titulocardapio {
+        padding-left: 40%;
+    }
+    .cardapiograde1 {
+        margin-bottom: -30px;
+    }
+    .cardapiograde1 img,
+    .cardapiograde2 img {
+        margin-top: -30px;
+        border: none;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    #cardapio {
+        display: none;
+    }
+    #cardapio2 {
+        padding-top: 40px;
+        margin-top: -120px;
+        height: auto;
+        background-color: #DDD;
+    }
+    .auxiliar {
+    display: flex;
+    width: 100%;
+    max-width: 1275px;
+    height: auto;
+    background-color: #23A3BB;
+    margin: auto;
+}
+    .auxiliarfotos img {
+        margin-top: -30px;
+        border: none;
+        margin-bottom: -20px;
+        padding-bottom: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .contato {
+        margin-top: -30px;
+    }
+    .titulocontato {
+        padding-left: 32%;
+    }
+    .textoroda {
+        font-size: 10px;
+    }
+}    
