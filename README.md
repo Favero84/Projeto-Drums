@@ -1,4 +1,4 @@
-# Projeto-Drums
+# Projeto Drums
 ## Projeto desenvolvido em HTML, CSS e PHP, com o objetivo de testar a responsividade, com interação com o banco de dados no formulário, login e para cadastro, porem no link consta apenas a parte visual do projeto. 
 
 http://projetodrums.000webhostapp.com/
